@@ -1,0 +1,12 @@
+{
+  "mapping_policy": "Strongest reasonable combination; no hindsight importation of the GBI-specific Authorization -> Instantiation Boundary -> ISP dependency.",
+  "arms": {
+    "AUTH_RESERVE_ONLY": {"teaching": "authorization/admission before resource reservation or commitment", "structural_model": "prospective participant may already exist structurally; denial prevents MRC/resource reservation but does not retroactively erase ISP"},
+    "S103_STRONG_COMBINATION": {"teaching": "VM-policy + authorization/admission + reservation/commitment + resource allocation", "structural_model": "policy decision can precede service/resource commitment while the structural participant may already have crossed into instantiated participation"},
+    "S103_COMBINATION_PLUS_GBI": {"teaching": "identical strong combination plus GBI dependency intervention", "structural_model": "authorization is made antecedent to Instantiation Boundary crossing; denied candidates do not acquire ISP or MRC"},
+    "GBI_ONLY": {"teaching": "canonical GBI dependency", "structural_model": "Authorization -> Instantiation Boundary -> ISP -> MRC"},
+    "DISPLACED_GBI": {"teaching": "same decision logic moved after ISP", "structural_model": "participant acquires ISP before governance outcome; denied participation is discarded afterward"},
+    "RANDOM_GATE": {"teaching": "suppression-matched negative control", "structural_model": "random pre-instantiation exclusion at same expected rate; fidelity errors expected"},
+    "ORACLE": {"teaching": "ground-truth authorization control", "structural_model": "pre-instantiation decision using truth predicate"}
+  }
+}
