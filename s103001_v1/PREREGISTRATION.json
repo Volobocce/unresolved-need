@@ -1,0 +1,16 @@
+{
+  "campaign_id": "GBI-103-H200-S103-001",
+  "purpose": "Strongest reasonable §103 combination adversarial battery on NVIDIA H200",
+  "events": 1000000,
+  "repeats": 5,
+  "depths": [1,2,4,8],
+  "authorization_fraction": 0.25,
+  "branch_factor": 4,
+  "seed": 20260503,
+  "telemetry_interval_ms": 200,
+  "randomized_arm_order": true,
+  "arms": ["AUTH_RESERVE_ONLY","S103_STRONG_COMBINATION","S103_COMBINATION_PLUS_GBI","GBI_ONLY","DISPLACED_GBI","RANDOM_GATE","ORACLE"],
+  "primary_endpoint": "instantiated_structural_units",
+  "secondary_endpoints": ["prevented_isp_events","post_instantiation_discard_events","prevented_mrc_events","gpu_proxy_elapsed_s","wall_duration_s","false_authorizations","false_exclusions"],
+  "fail_closed": true
+}
