@@ -1,0 +1,7 @@
+{
+  "campaign": "GBI-103-H200-S103-001",
+  "provenance_class": "preregistered adversarial engineering comparator",
+  "platform_target": "NVIDIA H200",
+  "relationship_to_CPA_001": "Distinct final adversarial battery. CPA-001 tested closest-prior-art architectural comparator; S103-001 gives the strongest reasonable combination full credit for pre-resource authorization while testing whether that reaches pre-instantiation dependency placement.",
+  "scientific_posture": "No post hoc arm substitution or parameter tuning permitted after canonical execution begins."
+}
