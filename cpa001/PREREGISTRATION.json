@@ -1,0 +1,15 @@
+{
+  "campaign_id": "GBI-103-H200-CPA-001",
+  "version": "v1",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "formal_name": "Closest-Prior-Art VM-Policy Architectural Comparator and Dependency Ablation Battery",
+  "primary_question": "Whether a faithful strongest technically supportable implementation of the identified closest-prior-art VM-policy architecture reproduces both the structural-participation consequence and fidelity of GBI without importing the GBI-specific Authorization -> Instantiation Boundary -> ISP -> MRC dependency.",
+  "null_hypothesis": "The closest-prior-art architecture reproduces both the structural-participation consequence and fidelity of GBI without introduction of the GBI-specific dependency relationship.",
+  "alternative_hypothesis": "The closest-prior-art architecture does not reproduce those consequences unless the GBI-specific dependency relationship is introduced.",
+  "falsification_rule": "The GBI-specific dependency hypothesis shall not be regarded as supported if CPA_PRIOR_ART independently reproduces both the instantiated-structural-participation consequence attributed to GBI and the prescribed fidelity requirements under equivalent workload conditions.",
+  "hardware_proxy_rule": "CUDA timing, utilization, power, energy, temperature, and memory are bounded hardware-stress proxies and shall not independently establish constitutional equivalence or non-equivalence.",
+  "negative_result_rule": "All valid results shall be preserved irrespective of whether they support, weaken, contradict, or leave unresolved the experimental hypothesis.",
+  "no_posthoc_tuning": true,
+  "primary_measure": "instantiated_structural_units",
+  "secondary_measure": "bounded_cuda_stress_proxy"
+}
