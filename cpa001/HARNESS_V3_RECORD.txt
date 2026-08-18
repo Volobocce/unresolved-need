@@ -1,0 +1,14 @@
+GBI-103-H200-CPA-001 — PRE-CANONICAL HARNESS V3 RECORD
+Date: 2026-08-18 UTC
+
+Reason:
+The smoke wrapper in run_h200.sh consumed --smoke but failed to forward remaining arguments, including --out. The smoke battery itself completed and wrote PASS-valid evidence under an internally generated timestamped directory, but the launcher then searched the requested smoke output path and failed closed.
+
+Scope of change:
+Only run_h200.sh is changed so that after recognizing --smoke it performs `shift` and forwards all remaining arguments to cpa_battery.py. No scientific model, arm definition, event logic, canonical configuration, prior-art mapping, fidelity rule, structural validity rule, seed, depth, repeat count, or hardware-proxy workload is changed.
+
+Prior execution status:
+Package integrity, H200 preflight, CUDA/PyTorch validation, and the 12-arm smoke execution completed. The canonical 1,000,000-event campaign did NOT start. No canonical result existed or was discarded.
+
+Corrected run_h200.sh SHA-256:
+c931713835a527ddd8e1359c453384fe012864b31efe3244322ec1aaebc5bb97
