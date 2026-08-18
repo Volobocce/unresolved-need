@@ -2,7 +2,8 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 if [[ "${1:-}" == "--smoke" ]]; then
-  exec python3 src/cpa_battery.py --smoke
+  shift
+  exec python3 src/cpa_battery.py --smoke "$@"
 else
   exec python3 src/cpa_battery.py "$@"
 fi
