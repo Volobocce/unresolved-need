@@ -1,0 +1,48 @@
+{
+  "mapping_policy": "CPA_PRIOR_ART shall be implemented generously toward the cited reference but shall not be credited with GBI-specific dependency states unless expressly or necessarily supported. Ambiguity is logged, not silently resolved.",
+  "prospective_participant": "VM/virtualized compute-service structural participant represented by a compute event/request",
+  "mappings": [
+    {
+      "component": "candidate_or_compute_event",
+      "source_behavior": "VM instantiation request or detected compute event",
+      "implemented_behavior": "Create an informational candidate record carrying tenant/service/resource parameters before policy evaluation.",
+      "support": "express_or_strong_analogue",
+      "gbi_feature_intentionally_excluded": "No automatic conclusion that this informational record is a GBI Candidate Representation for legal purposes."
+    },
+    {
+      "component": "policy_information",
+      "source_behavior": "Policy information such as SLA information is retrieved for the detected compute event.",
+      "implemented_behavior": "Deterministic policy function evaluates event attributes against a frozen eligibility predicate.",
+      "support": "express",
+      "gbi_feature_intentionally_excluded": "No automatic attribution of the full GBI GRI ontology."
+    },
+    {
+      "component": "authorization",
+      "source_behavior": "Policy-based determination whether the VM/compute event is authorized.",
+      "implemented_behavior": "Boolean policy authorization result.",
+      "support": "express",
+      "gbi_feature_intentionally_excluded": "Authorization does not by itself create the GBI Instantiation Boundary/ISP/MRC chain."
+    },
+    {
+      "component": "provisioning",
+      "source_behavior": "Appropriate/relevant data-center resources/services are provisioned/configured if authorized.",
+      "implemented_behavior": "Authorized events receive associated service/provisioning operations.",
+      "support": "express",
+      "gbi_feature_intentionally_excluded": "Associated service provisioning is not silently equated with acquisition of GBI ISP."
+    },
+    {
+      "component": "vm_instantiation_ambiguity",
+      "source_behavior": "The reference contains request-triggered language and also language permitting compute-event detection in response to hypervisor instantiating a VM.",
+      "implemented_behavior": "CPA_PRIOR_ART uses a conservative dual-state model: the VM structural unit is counted as instantiated when the source-supported compute-event pathway has crossed into VM structural existence; associated policy-controlled services remain separately modeled. A run is invalid if implementation logic retroactively prevents that already-instantiated unit merely to mimic GBI.",
+      "support": "source_ambiguity_preserved",
+      "gbi_feature_intentionally_excluded": "No imported rule that policy denial necessarily prevents acquisition of VM ISP."
+    }
+  ],
+  "fail_closed_checks": [
+    "CPA_PRIOR_ART may not call the GBI pre-instantiation gate function.",
+    "CPA_PRIOR_ART may not erase or un-count a structural unit after it has been marked instantiated.",
+    "CPA_PLUS_GBI must differ from CPA_PRIOR_ART only by the GBI dependency intervention plus trace labels needed to observe it.",
+    "GBI-designated arms require authorization before instantiation-boundary crossing and MRC after ISP.",
+    "Any source-to-implementation assumption must be logged in IMPLEMENTATION_ASSUMPTIONS.json in the evidence directory."
+  ]
+}
