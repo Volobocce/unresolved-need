@@ -1,0 +1,13 @@
+GBI-103-H200-CPA-001 TRANSPORT RE-FREEZE RECORD
+Date: 2026-08-18
+Reason: GitHub publication changed the byte representation of two text files before any scientific execution occurred.
+Affected files:
+- RUN_CPA_001.sh
+  original frozen SHA-256: a2c2e54e9deef14febb7e6315a456ac564f9195f76289e7890dbf7b8e94f0979
+  GitHub transport SHA-256: d1d1f6251e8f209d79f6fa9b3bed646808294576e35b3c49b7f3ed562374c106
+- src/cpa_battery.py
+  original frozen SHA-256: 26cab4008c8f07897e496b4e73d7ac866caaf767a89f402746e0fd66eb7166a7
+  GitHub transport SHA-256: fbd36a39398f9ab5107b0ae25cc9b97514802511e6aca4107a6e55e7b85a6dcf
+Scientific execution status before re-freeze: NOT STARTED.
+Disposition: Hosted source becomes transport re-freeze v2; package checksum manifest updated before any smoke or canonical H200 execution.
+No experimental result was generated or discarded.
