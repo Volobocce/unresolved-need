@@ -1,0 +1,7 @@
+GBI-103-H200-S103-001 INTERPRETATION LIMITS
+
+1. Primary evidence is exact structural causality in the frozen event model: whether denied prospective participants acquire instantiated structural participation before the decision takes effect.
+2. CUDA timing/power/utilization are bounded hardware stress proxies. They are not claimed to be literal implementations of cited network, VM, scheduling, or admission references.
+3. Authorization-before-reservation or authorization-before-resource-commitment is credited to prior art where supported; this battery does not equate that with authorization-before-ISP.
+4. The battery does not itself establish legal nonobviousness, long-felt need, commercial success, or infringement.
+5. Results must be interpreted with the preregistration, implementation mapping, validity checks, and raw evidence.
