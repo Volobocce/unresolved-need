@@ -1,0 +1,5 @@
+This battery is an engineering experiment, not a legal conclusion.
+It may inform structural equivalence, dependency-position causality, fidelity, and predictable technical consequences of the tested implementations.
+It does not by itself establish anticipation, obviousness/nonobviousness, motivation to combine, reasonable expectation of success as a legal conclusion, infringement, claim construction, or universal hardware performance.
+The historical VM-policy system is abstracted into a controlled structural model. The H200 CUDA workload is a bounded stress proxy and is not asserted to reproduce the literal resource profile of a historical VM/data-center implementation.
+The primary causal endpoint is instantiated structural participation. Hardware-proxy timing and telemetry are secondary.
