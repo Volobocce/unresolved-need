@@ -1,0 +1,32 @@
+{
+  "primary_reference": {
+    "publication": "US20140068703A1",
+    "title": "System and method providing policy based data center network automation",
+    "priority_date": "2012-08-28",
+    "publication_date": "2014-03-06",
+    "assignee_at_filing": "Alcatel-Lucent USA Inc.",
+    "public_source": "https://patents.google.com/patent/US20140068703A1/en",
+    "source_characterization": [
+      "Detects compute events including a VM instantiation request and generates a registration event.",
+      "Retrieves policy information and performs policy-based determination regarding event authorization and data-center resource allocation.",
+      "Configures relevant data-center services if the detected compute event is authorized.",
+      "The disclosure includes both request-triggered language and embodiments/claims in which detection can occur in response to hypervisor instantiation of a VM; this ambiguity is preserved rather than resolved in favor of GBI."
+    ]
+  },
+  "context_reference": {
+    "publication": "ITU-T Y.2111 (09/2006)",
+    "title": "Resource and admission control functions in Next Generation Networks",
+    "public_source": "https://www.itu.int/rec/dologin_pub.asp?id=T-REC-Y.2111-200609-S%21%21PDF-E&lang=e&type=items",
+    "source_characterization": [
+      "Discloses single-, two-, and three-phase resource-control schemes.",
+      "Expressly separates authorization, reservation, and commitment in some schemes.",
+      "Included for provenance and claim-boundary context only; CPA_PRIOR_ART is not allowed to import ITU sequencing unless explicitly identified as an assumption in a later campaign version."
+    ]
+  },
+  "combination_context": {
+    "publication": "Almeida et al., Journal of Parallel and Distributed Computing (2010)",
+    "title": "Joint admission control and resource allocation in virtualized servers",
+    "public_source": "https://www.sciencedirect.com/science/article/abs/pii/S0743731509001567",
+    "source_characterization": "Joint admission-control and resource-allocation teaching; reserved for the separate S103 combination battery, not imported into CPA_PRIOR_ART."
+  }
+}
