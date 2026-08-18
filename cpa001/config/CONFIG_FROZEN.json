@@ -1,0 +1,20 @@
+{
+  "campaign_id": "GBI-103-H200-CPA-001",
+  "seed": 20260503,
+  "events": 1000000,
+  "repeats": 5,
+  "depths": [1,2,4,8],
+  "authorization_fraction": 0.25,
+  "branch_factor": 4,
+  "gpu_work_iterations": 32,
+  "tensor_dim": 128,
+  "telemetry_interval_ms": 200,
+  "idle_baseline_seconds": 2.0,
+  "inter_arm_cooldown_ms": 250,
+  "randomize_arm_order": true,
+  "required_gpu_name_substring": "H200",
+  "arms": ["CPA_PRIOR_ART","CPA_PLUS_GBI","GBI_ONLY","DISPLACED_GBI","RANDOM_GATE","ORACLE"],
+  "smoke_events": 20000,
+  "smoke_repeats": 1,
+  "smoke_depths": [1,2]
+}
